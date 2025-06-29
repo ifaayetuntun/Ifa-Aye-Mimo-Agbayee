@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ILE IFAISESE AYE TUNTUN - Sagesse d’Ifá et Initiation</title>
+
+<!-- SEO meta -->
+<meta name="description" content="ILE IFAISESE AYE TUNTUN, fondé par OLUWO DAGUNRO OGOUDELE, est un temple numérique pour transmettre la sagesse ancestrale d’Ifá au monde moderne." />
+<meta name="keywords" content="Ifá, Ifá bénin, Orisa, Oracle, Esu, Orunmila, Ebook Ifá, Formation Ifá, Initiation Ifá" />
+<meta name="author" content="OLUWO DAGUNRO OGOUDELE" />
+
+<!-- Favicon -->
+<link rel="icon" href="https://via.placeholder.com/32x32.png?text=IFA" type="image/png" />
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --primary-color: #b8860b;
+    --bg-light: #f9f5f0;
+    --text-light: #333;
+    --nav-bg: #2d2d2d;
+    --nav-text: #fff;
+    --card-bg-light: #fff;
+    --shadow: rgba(0,0,0,0.1);
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    scroll-behavior: smooth;
+  }
+  header {
+    background-color: var(--nav-bg);
+    color: var(--nav-text);
+    text-align: center;
+    padding: 2rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px var(--shadow);
+  }
+  header h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  header p {
+    margin: 0.5rem 0 0;
+    font-style: italic;
+    font-weight: 600;
+  }
+  nav {
+    margin-top: 6rem;
+    background: var(--nav-bg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: sticky;
+    top: 70px;
+    z-index: 900;
+    box-shadow: 0 2px 5px var(--shadow);
+  }
+  nav a {
+    color: var(--nav-text);
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: background-color 0.3s;
+  }
+  nav a:hover, nav a:focus {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  main {
+    max-width: 960px;
+    margin: 3rem auto 4rem;
+    padding: 0 1rem;
+  }
+  section {
+    background-color: var(--card-bg-light);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 10px var(--shadow);
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #apropos {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  #apropos div {
+    min-width: 250px;
+  }
+  #apropos img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  #citationDuJour {
+    background: #fff7e6;
+    border-left: 6px solid var(--primary-color);
+    padding: 1rem 2rem;
+    font-style: italic;
+    color: #5a3e00;
+    border-radius: 8px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul {
+    padding-left: 1.2rem;
+  }
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea,
+  form select,
+  form input[type="date"],
+  form input[type="time"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  button, input[type=submit] {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  button:hover, input[type=submit]:hover {
+    background-color: #996d00;
+  }
+  @media (max-width: 600px) {
+    nav {
+      gap: 0.5rem;
+    }
+    nav a {
+      padding: 0.5rem 0.8rem;
+      font-size: 0.9rem;
+    }
+    #apropos {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    #apropos div {
+      min-width: 100% !important;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>ILE IFAISESE AYE TUNTUN</h1>
+  <p>Un temple numérique pour le savoir, la sagesse et l'initiation</p>
+</header>
+<nav aria-label="Navigation principale">
+  <a href="#apropos">À propos</a>
+  <a href="#fondamentaux">Fondamentaux d'Ifá</a>
+  <a href="#blog">Blog</a>
+  <a href="#glossaire">Glossaire</a>
+  <a href="#faq">FAQ</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#videos">Vidéos</a>
+  <a href="#newsletter">Newsletter</a>
+</nav>
+<main>
+  <section id="apropos" tabindex="0">
+    <div style="flex:1; min-width:250px;">
+      <img src="https://via.placeholder.com/300x300?text=Photo+OLUWO+DAGUNRO+OGOUDELE" alt="Photo de OLUWO DAGUNRO OGOUDELE" />
+    </div>
+    <div style="flex:2; min-width:300px; margin-top:1rem;">
+      <h2>À propos</h2>
+      <p>Je suis <strong>OLUWO DAGUNRO OGOUDELE</strong>, initié d’Ifá, enseignant, écrivain et bâtisseur de savoir. Mon chemin a commencé dans les forêts sacrées du Bénin, éclairé par les oracles et les anciens. Aujourd’hui, ma mission est de transmettre la sagesse d’Ifá au monde, à travers une plateforme moderne et enracinée.</p>
+    </div>
+  </section>
+  <section id="citationDuJour" tabindex="0" aria-live="polite">
+    <h3>Citation du jour</h3>
+    <p id="proverbeIfa" style="font-weight:600;"></p>
+  </section>
+  <section id="fondamentaux" tabindex="0" style="margin-top:2rem;">
+    <h2>Les Fondamentaux d’Ifá</h2>
+    <p>Découvrez les bases : Odù, Orìṣà, Esù, Orúnmìlà, le rôle de l’ẹbọ, et plus.</p>
+  </section>
+  <section id="blog" tabindex="0" style="margin-top:2rem;">
+    <h2>Blog</h2>
+    <p>Chaque semaine, découvrez un nouvel article sur un thème Ifá : Odù, Itàn, prières et réflexions.</p>
+    <!-- Disqus comments -->
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+      this.page.url = window.location.href;
+      this.page.identifier = 'blog-section';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ifaayetuntun.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Veuillez activer JavaScript pour voir les commentaires.</noscript>
+  </section>
+  <section id="glossaire" tabindex="0" style="margin-top:2rem;">
+    <h2>Glossaire Ifá</h2>
+    <p>Dictionnaire des mots sacrés : Esu, Ẹbọ, Ẹlẹ́g̣bára, Aṣẹ... avec définitions claires.</p>
+  </section>
+  <section id="faq" tabindex="0" style="margin-top:2rem;">
+    <h2>FAQ</h2>
+    <ul>
+      <li><strong>Comment se déroule une consultation ?</strong> Vous choisissez un créneau, nous échangeons sur vos besoins, et Ifá guide le chemin.</li>
+      <li><strong>C’est quoi Ifá ?</strong> Ifá est une tradition sacrée yorùbá, oracle et sagesse ancestrale.</li>
+      <li><strong>À quoi sert un Ẹbọ ?</strong> C’est une offrande qui ouvre le chemin, purifie et attire la bénédiction.</li>
+    </ul>
+  </section>
+  <section id="services" tabindex="0" style="margin-top:2rem;">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Consultations personnalisées d’Ifá</li>
+      <li>Formations en ligne et ebooks</li>
+      <li>Protections et bénédictions</li>
+      <li>Cérémonies traditionnelles</li>
+    </ul>
+  </section>
+  <section id="contact" tabindex="0" style="margin-top:2rem;">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Nom complet</label>
+      <input type="text" id="name" name="name" placeholder="Votre nom" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Votre message ici" required></textarea>
+      <input type="submit" value="Envoyer" />
+    </form>
+  </section>
+  <section id="videos" tabindex="0" style="margin-top:2rem;">
+    <h2>Vidéos</h2>
+    <p>Découvrez nos vidéos inspirantes sur TikTok et YouTube.</p>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <p><a href="https://www.tiktok.com/@ifaisese.dagunro" target="_blank" rel="noopener">Notre TikTok Ifá</a></p>
+  </section>
+  <section id="newsletter" tabindex="0" style="margin-top:2rem;">
+    <h2>Newsletter</h2>
+    <form id="newsletterForm">
+      <label for="emailNews">Votre email pour recevoir les enseignements Ifá chaque semaine</label>
+      <input type="email" id="emailNews" name="emailNews" placeholder="votre@email.com" required />
+      <input type="submit" value="S’inscrire" />
+    </form>
+  </section>
+</main>
+<script>
+  // Citation du jour Ifá
+  const proverbesIfa = [
+    "A kì í fi omi ṣ'awọ àjà, kó mọ̀ ṣ'ojú ọ̀nà – On ne peut pas se baigner dans une rivière sans mouiller le chemin.",
+    "Bí a bá fẹ́ jẹun, a gbọdọ̀ kọ́kọ̀ ṣàgbé – Pour manger, il faut d'abord semer.",
+    "Ọmọ tí a kò kọ́, ní yóò gbẹ́san – L'enfant qu'on ne forme pas, en paiera le prix.",
+    "Ẹ̀kọ́ ni ìmọ̀, ìmọ̀ ni àṣà – L'enseignement est la connaissance, la connaissance est la culture."
+  ];
+  function afficherProverbe() {
+    const index = Math.floor(Math.random() * proverbesIfa.length);
+    document.getElementById('proverbeIfa').textContent = proverbesIfa[index];
+  }
+  afficherProverbe();
+
+  // Gestion formulaire contact (simulation)
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Merci pour votre message, nous vous répondrons bientôt.');
+    this.reset();
+  });
+
+  // Gestion formulaire newsletter (simulation)
+  document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Merci pour votre inscription à la newsletter!');
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
